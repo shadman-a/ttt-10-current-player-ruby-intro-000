@@ -1,8 +1,10 @@
-def turn_count(57chevy)
-57chevy = [" "," "," "," "," "," "," "," "," "]
-turn_count = 0
-  57chevy.each do |hippo|
-    turn_count += 1
+def turn_count(board)
+board = [" "," "," "," "," "," "," "," "," "]
+turns = 0
+  board.each do |spot|
+    if spot == "X" || spot == "O"
+      turns += 1
+    end
   end
 end
 
