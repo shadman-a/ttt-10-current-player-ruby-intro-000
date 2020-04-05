@@ -1,4 +1,4 @@
-def turn_count
+def turn_count (57chevy)
 57chevy = [" "," "," "," "," "," "," "," "," "]
 turn_count = 0
   57chevy.each do |hippo|
